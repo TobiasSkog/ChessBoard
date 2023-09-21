@@ -6,7 +6,8 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        // Unicode to show the squares, and setting a unicode standard output and input
+        // Setting a unicode standard output and input for the Console class so that
+        // we can use unicode characters to represent the squares of the board and the chesspiece
         Console.InputEncoding = Encoding.Unicode;
         Console.OutputEncoding = Encoding.Unicode;
 
